@@ -1,3 +1,3 @@
-FROM python:3.9
-COPY Test.py /Test.py
-CMD ["python","/Test.py"]
+FROM python:3.11
+COPY Test.py .
+CMD ["python","Test.py"]
